@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:leafgarland/typescript-vim.git
+	branch = master
+	commit = 4dc79bd1b0c43c16cae146bee065f2acc6d2b789
+	parent = dd285345713558dcb3940caa5111c4d29a3712aa
+	cmdver = 0.3.1
