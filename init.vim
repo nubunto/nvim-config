@@ -23,7 +23,7 @@ set splitright          " Vertical split to right of current.
 
 
 if &listchars ==# 'eol:$'
-  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:-
 endif
 set list                " Show problematic characters.
 
@@ -51,8 +51,12 @@ nnoremap <Leader>n :bn<CR>
 " Map <space>p to :bp
 nnoremap <Leader>p :bp<CR>
 
+" Map <space>d to :bd
+nnoremap <Leader>d :bd<CR>
+
 " Map <space>tn to :tabnext
 nnoremap <Leader>tn :tabn<CR>
+
 " Map <space>tp to :tabprevious
 nnoremap <Leader>tp :tabp<CR>
 
@@ -75,4 +79,4 @@ let g:airline_left_sep = ' '
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
-let g:airline_theme= 'gruvbox'
+let g:airline_theme= 'simple'
