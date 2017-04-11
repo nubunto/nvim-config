@@ -24,7 +24,14 @@ set splitright          " Vertical split to right of current.
 " Map the leader to the spacebar
 let mapleader="\<SPACE>"
 
+" Map <space>f to :FZF
 nnoremap <Leader>f :FZF<CR>
+
+" Map <space>n to :bn
+nnoremap <Leader>n :bn<CR>
+
+" Map <space>p to :bp
+nnoremap <Leader>p :bp<CR>
 
 " Use <C-L> to clear the highlighting of :set hlsearch.
 if maparg('<C-L>', 'n') ==# ''
