@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vim-airline/vim-airline-themes
+	branch = master
+	commit = 66c2839bb1126c71a0a2d1da9804161ccd3b78b6
+	parent = 49b9ef4eb09ca42cdcffaf65626bfb55a6ba1959
+	cmdver = 0.3.1
