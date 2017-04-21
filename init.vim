@@ -20,16 +20,7 @@ set formatoptions+=o    " Continue comment marker in new lines.
 set textwidth=0         " Hard-wrap long lines as you type them.
 set splitbelow          " Horizontal split below current.
 set splitright          " Vertical split to right of current.
-
-
-if &listchars ==# 'eol:$'
-  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:-
-endif
-set list                " Show problematic characters.
-
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
-match ExtraWhitespace /\s\+$\|\t/
-
+set autoread            " Reload automatically when file changes
 set ignorecase          " Make searching case insensitive
 set smartcase           " ... unless the query has capital letters.
 set gdefault            " Use 'g' flag by default with :s/foo/bar/.
@@ -46,10 +37,10 @@ let mapleader="\<SPACE>"
 nnoremap <Leader>f :FZF<CR>
 
 " Map <space>n to :bn
-nnoremap <Leader>n :bn<CR>
+nnoremap <Leader>n :bn!<CR>
 
 " Map <space>p to :bp
-nnoremap <Leader>p :bp<CR>
+nnoremap <Leader>p :bp!<CR>
 
 " Map <space>d to :bd
 nnoremap <Leader>d :bd<CR>
@@ -66,7 +57,7 @@ if maparg('<C-L>', 'n') ==# ''
 endif
 
 " Search and Replace
-nmap <Leader>s :%s//g<Left><Left>
+nmap <Leader>rp :%s//g<Left><Left>
 
 " airline
 let g:airline#extensions#tabline#enabled = 2
@@ -80,3 +71,11 @@ let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
 let g:airline_theme= 'simple'
+
+" ack.vim
+if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+endif
+
+" vim-go
+let g:go_fmt_command = "goimports"
