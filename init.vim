@@ -79,3 +79,11 @@ endif
 
 " vim-go
 let g:go_fmt_command = "goimports"
+
+" emmet-vim
+let g:user_emmet_settings = {
+  \  'js' : {
+  \    'extends' : 'html',
+  \  },
+  \}
+
