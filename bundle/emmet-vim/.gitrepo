@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/mattn/emmet-vim
+	branch = master
+	commit = 4efb1c333ebb547542d23d0cac9c3bff272ac353
+	parent = c546c1f35a92a7d8f3290fde1ee65bcbd80a9db0
+	cmdver = 0.3.1
