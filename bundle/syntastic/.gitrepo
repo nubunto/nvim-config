@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:vim-syntastic/syntastic.git
+	branch = master
+	commit = 6cf4f5ca76059caf229bc32c8e613cb137e0faed
+	parent = 2f5ceb45cee4ffb65fba3e690742cc20950cceb9
+	cmdver = 0.3.1
