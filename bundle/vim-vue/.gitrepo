@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/posva/vim-vue.git
+	branch = master
+	commit = c7f975ddb8af710d7586d0cd9765e35d570b2f6f
+	parent = c617b99026cecb4dfa97aba4a5d9d1917c496947
+	cmdver = 0.3.1
