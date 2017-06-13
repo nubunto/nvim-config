@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/tpope/vim-fireplace
+	branch = master
+	commit = 4d71aa26aed6cd951403715c7880871e8788cac7
+	parent = fbb6b4040bb68dec7a5f0d5930b833d791391983
+	cmdver = 0.3.1
