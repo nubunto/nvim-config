@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/elixir-lang/vim-elixir.git
+	branch = master
+	commit = fe7daaaff030e217dffedf53cb5f426099281e3e
+	parent = 48afee0b7e533f52081d12f3629889379097cc97
+	cmdver = 0.3.1
